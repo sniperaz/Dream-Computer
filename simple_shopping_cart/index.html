@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/application.js"></script>
+    <script src="src/jquery.flapper.js"></script>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/flapper.css" type="text/css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Coda' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+    <section class="container">
+      <div class="row">
+        <div class="cart-title col-xs-12">
+          <h1>Dream Computer Build</h1>
+        </div>
+      </div>
+    </section>
+    <section id="item-list" class="container">
+      <!-- Processor  -->
+      <div class="row item">
+        <div class="item-name col-xs-3">
+          AMD Threadripper 3990X 2.9 GHz 64-Core
+        </div>
+        <div class="item-price col-xs-3">
+          $8500.00
+        </div>
+        <div class="item-qty col-xs-3">
+          <label> QTY </label>
+          <input class="quantity">
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">
+            Remove
+          </button>
+        </div>
+        <div class="item-subtotal col-xs-2">
+          $--.--
+        </div>
+      </div>
+    <!-- Mother Board-->
+    <div class="row item">
+      <div class="item-name col-xs-3">
+        MSI Creator TRX40 EATX sTRX4
+      </div>
+      <div class="item-price col-xs-3">
+        $500.00
+      </div>
+      <div class="item-qty col-xs-3">
+        <label> QTY </label>
+        <input class="quantity">
+      </div>
+      <div class="col-xs-1">
+        <button class="remove">
+          Remove
+        </button>
+      </div>
+      <div class="item-subtotal col-xs-2">
+        $--.--
+      </div>
+    </div>
+    <!-- Memory -->
+    <div class="row item">
+      <div class="item-name col-xs-3">
+        Corsair Vengenace LPX 128 GB (8 x 16GB) DDR4-3800 CL19
+      </div>
+      <div class="item-price col-xs-3">
+        $1910.50
+      </div>
+      <div class="item-qty col-xs-3">
+        <label> QTY </label>
+        <input class="quantity">
+      </div>
+      <div class="col-xs-1">
+        <button class="remove">
+          Remove
+        </button>
+      </div>
+      <div class="item-subtotal col-xs-2">
+        $--.--
+      </div>
+    </div>
+    <!-- Storage -->
+    <div class="row item">
+      <div class="item-name col-xs-3">
+        Intel Optane 905P 1.5 TB PCI-E NVME SSD
+      </div>
+      <div class="item-price col-xs-3">
+        $264.99
+      </div>
+      <div class="item-qty col-xs-3">
+        <label> QTY </label>
+        <input class="quantity">
+      </div>
+      <div class="col-xs-1">
+        <button class="remove">
+          Remove
+        </button>
+      </div>
+      <div class="item-subtotal col-xs-2">
+        $--.--
+      </div>
+    </div>
+    <!-- GPU -->
+    <div class="row item">
+      <div class="item-name col-xs-3">
+        ASUS GeForce RTX 2080 TI 11GB Turbo
+      </div>
+      <div class="item-price col-xs-3">
+        $1100.00
+      </div>
+      <div class="item-qty col-xs-3">
+        <label> QTY </label>
+        <input class="quantity">
+      </div>
+      <div class="col-xs-1">
+        <button class="remove">
+          Remove
+        </button>
+      </div>
+      <div class="item-subtotal col-xs-2">
+        $--.--
+      </div>
+    </div>
+    <!-- Case -->
+    <div class="row item">
+      <div class="item-name col-xs-3">
+        Lian Li O11D XL-X ATX Full Tower
+      </div>
+      <div class="item-price col-xs-3">
+        $427.99
+      </div>
+      <div class="item-qty col-xs-3">
+        <label> QTY </label>
+        <input class="quantity">
+      </div>
+      <div class="col-xs-1">
+        <button class="remove">
+          Remove
+        </button>
+      </div>
+      <div class="item-subtotal col-xs-2">
+        $--.--
+      </div>
+    </div>
+    <!-- Power Supply -->
+    <div class="row item">
+      <div class="item-name col-xs-3">
+        Corsair AXi 1600 W 80+ TItanium Certified Fully Modular ATX
+      </div>
+      <div class="item-price col-xs-3">
+        $429.00
+      </div>
+      <div class="item-qty col-xs-3">
+        <label> QTY </label>
+        <input class="quantity">
+      </div>
+      <div class="col-xs-1">
+        <button class="remove">
+          Remove
+        </button>
+      </div>
+      <div class="item-subtotal col-xs-2">
+        $--.--
+      </div>
+    </div>
+    <!-- Adding Stuff -->
+    <div class="row item new">
+      <div class="col-xs-3">
+        <input placeholder="NVIDIA 3090 TI" id="name">
+      </div>
+      <div class="col-xs-3">
+        <input placeholder="4000" id="cost">
+      </div>
+      <div class="col-xs-1">
+        <button id="fork">
+          Add
+        </button>
+      </div>
+      <div class="col-xs-1 col-xs-offset-2">
+        <button id="sort">
+          Sort
+        </button>
+      </div>
+    </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+         <h1 class="total-price-label">
+            Total Price:
+          </h1>
+          <div id="total-price">
+            $--.--
+          </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,48 @@
+#total-price, .total-price-label {
+    display: inline-block;
+  }
+  
+  #total-price {
+    margin-left: 30px;
+    font-size: 36px;
+  }
+  
+  body {
+    color: white;
+    background-color: black;
+    background: url("../images/computer_part.jfif") no-repeat, black;
+    background-size: cover;
+    font-family: 'Impact', cursive;
+  }
+  
+  input {
+    font-family: 'Impact', cursive;
+  }
+  
+  .quantity, #name, #cost {
+    color: black;
+  }
+  
+  .flipboard {
+    margin-top: 20px;
+  }
+  
+  #calc-prices-button, #fork {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+  
+  .remove, #sort{
+    color: grey;
+    
+  }
+  
+  #sort {
+    width: 100%;
+  }
+  
+  .new {
+    margin-top: 20px;
+  }
